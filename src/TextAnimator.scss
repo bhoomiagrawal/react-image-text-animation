@@ -1,0 +1,23 @@
+#brick {
+    width: 40px;
+    // height: 20px;
+    // background: #EE6B47;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #path {
+    // outline: 1px solid #E8C48E;
+    width: 540px;
+    height: 20px;
+  }
+
+  #field {
+    height: 200px;
+    position: relative;
+  }
+  
+  #ball {
+    position: absolute;
+    cursor: pointer;
+  }

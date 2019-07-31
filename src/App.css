@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  margin: 2rem;
+  display: flex;
+    flex-wrap: wrap;
+}
+.colDvd {
+  border: solid black 1px;
+  padding: 10px 20px;
+  height: 100%;
+  background: #fffff5
 }
 
 .App-logo {
@@ -9,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c3cee2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
