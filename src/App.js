@@ -1,8 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import TextAnimator from './components/TextAnimator';
-// import ReactImageTextAnimation from 'react-image-text-animation';
-
+import ReactImageTextAnimation from 'react-image-text-animation';
 import { Button, Form, FormGroup, Label, Input, FormText, Col } from 'reactstrap';
 import './App.css';
 
@@ -151,7 +148,7 @@ getBase64(file, cb) {
             </Form>
         </div>
         <div className="column">
-          <TextAnimator animation={animation} font={font} duration={duration} data={submit ? data : ''} dataType={dataType} className={'colDvd'} tStyle={{marginLeft: '25px'}}/>
+          <ReactImageTextAnimation  animation={animation} font={font} duration={duration} data={submit ? data : ''} dataType={dataType} className={'colDvd'} tStyle={{marginLeft: '25px'}}/>
         </div>
       </div>
     );
