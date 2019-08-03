@@ -1,5 +1,5 @@
 ### Project Name
-React Stripe Checkout
+React Image Text Animation
 
 ### About Project
 
